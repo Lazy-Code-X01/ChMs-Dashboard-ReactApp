@@ -1,0 +1,230 @@
+$desktop: 1280px;
+$ipads: 1024px;
+$tablet: 768px;
+$mobile: 480px;
+$smallerMobile: 320px;
+
+// desktop
+@media screen and (max-width: $desktop) {
+    // everything looks good on this breakpoint
+}
+
+@media screen and (max-width: $ipads) {
+    // everything looks good on this breakpoint
+}
+
+// tablets
+@media screen and (max-width: $tablet) {
+
+    .mob_sidebar_imitation{
+        width: 70px;
+    }
+
+    // mobile home styling
+    .home{
+        .homeContainer{
+
+          .homeContainerComponents{
+            width: 91.5%;
+
+            .widgets{
+                width: fit-content;
+                flex-wrap: wrap;
+                
+                .widget{
+                    flex: unset;
+                    width: 100%;
+                }
+            }
+            .charts{
+                flex-direction: column;
+
+                .featured{
+                    padding: 20px;
+                }
+
+                .chart{
+                    padding: 20px;
+                }
+            }
+          }
+    }
+    }
+
+    //mobile members styling
+    .list{
+        .listContainer{
+            .listContainerComponents{
+                .membersContainer{
+                    width: 100%;
+                }
+            }
+        }
+    } 
+
+    // mobile attendance styling
+    .attendance{
+        
+        .attendanceContainer{
+
+            .attendanceContainerComponents{
+
+                .attendaceHolder{
+                    // background-color: brown;
+
+                    .attendanceHeader{
+                        width: 100%;    
+                    }
+                    .styledTable{
+                        width: 107%;
+                    }
+                }
+            } 
+        } 
+    } 
+
+    // mobile new members styling
+    .new{
+
+        .newContainer{
+
+            .newContainerComponents{
+                .top{
+                    width: 94%;
+                }
+                .bottom{
+                    width: 94%;
+                    .right{
+
+                        form{
+                            flex-direction: column;
+
+                            .formInput{
+                                width: 90%;
+                            }
+                        }
+                    } 
+                } 
+            } 
+        } 
+    }
+    
+    // mobile single mebers page styling
+    .single{
+
+        .singleContainer{
+
+            .singleContainerComponents{
+
+                .top{
+                    width: 100%;
+                    flex-direction: column;
+
+                    .left{
+                        .editButton{
+                            font-size: 18px;
+                            padding: 6px;
+                        }
+                        .item{
+                            .details{
+                                .detailItem{
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .bottom{
+                    width: 94%;
+                }
+            } 
+        } 
+    } 
+
+    // mobile edit members page styling
+    .user{
+
+        .userContainer{
+
+            .userContainerComponents{
+
+                .userTitileContainer{
+                    width: 100%;
+                }
+                .container{
+                    flex-direction: column;
+                }
+                .userShow{
+                    width: 100%;
+
+                    .userShowBottom{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+                .userUpdate{
+                    margin-left: 0px;
+                    margin-top: 30px;
+                    flex: unset;
+                    width: 100%;
+                }
+                .fr_mobile_flex{
+                    display: block;
+                }
+            } 
+        } 
+    } 
+}
+
+// mobile
+@media screen and (max-width: $mobile) {
+    .mob_sidebar_imitation{
+     display: none;
+    }
+
+    .mobNav{
+        width: 100%;
+        .mobWrapper{
+            justify-content: flex-end;
+            .search{
+                display: none;
+            }
+        } 
+    }
+
+    // home
+    .home{
+        .homeContainer{
+            .homeContainerComponents{
+                width: 100%;
+            }
+        } 
+    } 
+
+    // attendance
+    .attendance{
+
+        .attendanceContainer{
+
+            .attendanceContainerComponents{
+
+                .attendaceHolder{
+
+                .styledTable{
+                    width: 112%;
+                } 
+            } 
+        } 
+    } 
+
+    }
+
+    // members
+    .list{
+        .listContainer{
+            .listContainerComponents{
+                width: 90%;
+            }
+        }
+    }
+}

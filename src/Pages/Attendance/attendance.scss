@@ -1,0 +1,43 @@
+@import '../../scss/colors';
+@import '../../scss/utitlities';
+
+
+.attendance{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+
+    
+    .attendanceContainer{
+      // background-color: aquamarine;
+        width: 100%;
+        display: flex;
+        .attendanceContainerComponents{
+          position: relative;
+          width: 100%;
+
+          .attendaceHolder{
+            margin-top: 50px;
+            padding: 20px;
+            
+            .attendanceHeader{
+              padding: 20px;
+              box-shadow: $shadow;
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 10px;
+            //   color: lightgrey;
+            color: lighten($color: $primaryColor, $amount: 20);
+              font-size: 20px;
+              font-weight: 700;
+
+              .count_el{
+                color: green;
+                font-weight: 900;
+              }
+            }
+          }
+        }
+    }
+}

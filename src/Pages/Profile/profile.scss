@@ -1,0 +1,26 @@
+@import '../../scss/colors';
+@import '../../scss/utitlities';
+
+
+.profile{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+
+    
+    .profileContainer{
+      // background-color: aquamarine;
+        width: 100%;
+        display: flex;
+        .profileContainerComponents{
+          position: relative;
+          width: 85.5%;
+
+          .profileHolder{
+            margin-top: 50px;
+            padding: 20px;
+          }
+        }
+      }
+}

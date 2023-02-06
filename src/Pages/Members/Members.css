@@ -1,0 +1,42 @@
+.list {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+.list .listContainer {
+  width: 100%;
+  display: flex;
+}
+.list .listContainer .sidebar_imitation {
+  width: 14.5%;
+  height: 100vh;
+}
+.list .listContainer .listContainerComponents {
+  position: relative;
+  width: 85.5%;
+}
+.list .listContainer .listContainerComponents .membersContainer {
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+.list .listContainer .listContainerComponents .membersContainer .membersTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+  color: lightgrey;
+  font-size: 20px;
+  font-weight: 700;
+}
+.list .listContainer .listContainerComponents .membersContainer .membersTitle .link {
+  text-decoration: none;
+  color: green;
+  font-weight: 700;
+  padding: 7px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}

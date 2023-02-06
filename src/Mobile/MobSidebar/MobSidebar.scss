@@ -1,0 +1,84 @@
+@import '../../SCSS/utitlities';
+@import '../../SCSS/colors';
+
+.mobsidebar{
+    position: fixed;
+    // width: 70px; // its declared as inline
+    // border-right: 0.5px solid rgb(230, 227, 227) ;
+    min-height: 100vh;
+    background-color: $primaryColor;
+    user-select: none;
+    transition: all 0.5s;
+    z-index: 11;
+    // display: none;
+
+    .MobTop{
+        display: flex;
+        align-items:center;
+        padding:20px 15px;
+        
+        .logo{
+            font-size: 30px;
+            color: $white ;
+        }
+        .bars{
+            display: flex;
+            font-size: 30px;
+            margin-left: 50px;
+            color: $secondaryColor;
+        }
+    }
+
+    .MobCenter{
+        padding:20px 15px;
+
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            transition: .5s ease-in;
+
+            .mobTitle{
+                font-size: 10px;
+                font-weight: bold;
+                color: $white;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+                margin-bottom: 20px;
+
+                &:hover{
+                    background-color: $darkPrimary;
+                    transition: .2s ease-in;
+                    
+                    .icon{
+                        transform: scale(110%);
+                    }
+                }
+
+                .icon{
+                    font-size: 20px;
+                    color: $secondaryColor;
+                }
+
+                span{
+                    font-size: 14px;
+                    color: darken($color: $white, $amount: 10);
+                    font-weight: 600;
+                    margin-left: 10px;
+                }
+                .active{
+                    background-color: $darkPrimary;
+                    .icon{
+                        transform: scale(110%);
+                    }
+                }
+            }
+        }
+    }
+}

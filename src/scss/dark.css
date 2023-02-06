@@ -1,0 +1,72 @@
+.dark {
+  background-color: #111;
+  color: rgb(156, 156, 156);
+}
+.dark .navbar {
+  background-color: #111;
+  border-bottom: 3px solid #222;
+  color: gray;
+}
+.dark .navbar input {
+  color: rgb(156, 156, 156);
+}
+.dark .sidebar {
+  background-color: rgb(15, 15, 15);
+}
+.dark .chartGrid {
+  stroke: rgba(228, 228, 228, 0.219);
+}
+.dark .listContainer .listTitle {
+  color: rgb(156, 156, 156) !important;
+}
+.dark .table {
+  background-color: #111;
+}
+.dark .table .tableCell {
+  color: rgb(156, 156, 156);
+}
+.dark .table .action span.view {
+  color: green;
+  border: 1px dotted rgba(0, 128, 0, 0.187);
+}
+.dark .tableHead {
+  background-color: #222;
+}
+.dark form .formInput input {
+  color: rgb(156, 156, 156);
+}
+.dark form button {
+  background-color: #222 !important;
+}
+.dark .userShowBottom .userShowInfo {
+  color: rgb(156, 156, 156) !important;
+}
+.dark .userUpdateInput {
+  color: rgb(156, 156, 156) !important;
+}
+.dark .barChartLine {
+  stroke: rgb(156, 156, 156) !important;
+}
+.dark .singleContainerComponents .bottom .datatable .data_grid {
+  color: rgb(156, 156, 156) !important;
+}
+.dark .singleContainerComponents .bottom .datatable .cellAction .viewButton {
+  color: green;
+  border: 1px dotted rgba(0, 128, 0, 0.187);
+}
+.dark .styledTable .styledTableHead {
+  background-color: #222 !important;
+  color: rgb(156, 156, 156);
+}
+.dark .styledTable .styledTableRow {
+  background-color: #111;
+  color: rgb(156, 156, 156) !important;
+}
+.dark .styledTable .bio-btn.Success {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.187);
+}
+.dark .styledTable .bio-btn.Pending {
+  color: crimson;
+  background-color: rgba(220, 20, 60, 0.315);
+}

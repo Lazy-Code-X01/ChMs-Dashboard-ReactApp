@@ -1,0 +1,27 @@
+@import '../../scss/colors';
+@import '../../scss/utitlities';
+
+
+.subscription{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+
+    
+    .subscriptionContainer{
+      // background-color: aquamarine;
+        width: 100%;
+        display: flex;
+        .subscriptionContainerComponents{
+          position: relative;
+          width: 100%;
+
+          .subscriptionHolder{
+            margin-top: 50px;
+            padding: 20px;
+            // background-color: aqua;
+          }
+        }
+    }
+}

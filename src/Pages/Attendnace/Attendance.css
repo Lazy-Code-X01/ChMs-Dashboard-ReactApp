@@ -1,0 +1,36 @@
+.attendance {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+.attendance .attendanceContainer {
+  width: 100%;
+  display: flex;
+}
+.attendance .attendanceContainer .sidebar_imitation {
+  width: 14.5%;
+  height: 100vh;
+}
+.attendance .attendanceContainer .attendanceContainerComponents {
+  position: relative;
+  width: 85.5%;
+}
+.attendance .attendanceContainer .attendanceContainerComponents .attendaceHolder {
+  margin-top: 50px;
+  padding: 20px;
+}
+.attendance .attendanceContainer .attendanceContainerComponents .attendaceHolder .attendanceHeader {
+  padding: 20px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: lightgrey;
+  font-size: 20px;
+  font-weight: 700;
+}
+.attendance .attendanceContainer .attendanceContainerComponents .attendaceHolder .attendanceHeader .count_el {
+  color: green;
+  font-weight: 900;
+}

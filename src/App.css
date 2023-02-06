@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+/* 
+
+    container is on display flex 
+    it's flexing the main and the sidebar
+
+*/
+
+.container{
+    position: relative;
+    display:flex;
+    width: 100%;
+    /* background-color: black; */
+}
+
+main{
+    width: 85.5%;
+    transition: all 0.5s;
+    /* padding: 20px; */
+    /* background-color: green; */
+}

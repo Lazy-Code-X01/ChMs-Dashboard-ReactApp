@@ -1,0 +1,84 @@
+@import '../../scss/colors';
+@import '../../scss/utitlities';
+
+
+.styledTable{
+    margin-top: 30px;
+    box-shadow: $shadow;
+
+
+    .styledTableHead{
+        background-color: $lightWhite;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+        // color: grey;
+        // color: red;
+    }
+    .styledTableRow{
+        // background-color: red;
+    }
+    .Member{
+        color: $primaryColor;
+    }
+    .Worker{
+        color: crimson;
+    }
+    .Minister{
+        color: green;
+    }
+    .cellWrapper{
+        display: flex;
+        align-items: center;
+        color: gray;
+        
+        .image{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+            object-fit: cover;
+        }
+    }
+
+    .bio-btn{
+        padding: 5px;
+        border-radius: 5px;
+        width: max-content;
+        color: white;
+        font-weight: 700;
+        &.Success{
+            color: green;
+           background-color: rgba(43, 154, 43, 0.335); 
+        }
+        &.Pending{
+            color: crimson;
+            background-color: rgba(220, 20, 60, 0.315);
+        }
+    }
+}
+
+
+.attendanceHistory{
+    padding: 20px;
+    box-shadow: $shadow;
+    margin-top: 20px;
+    .attendaceHistoryHeader{
+        color: gray;
+        font-weight: 700;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        .attendaceHistoryButton{
+            outline: none;
+            border: none;
+            background: none;
+            background-color: green;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+@import '../../scss/colors';
+@import '../../scss/utitlities';
+
+
+.attendance{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+
+    
+    .attendanceContainer{
+      // background-color: aquamarine;
+        width: 100%;
+        display: flex;
+        .sidebar_imitation{
+            width: 14.5%;
+            height: 100vh;
+            // i added this here ti immitate the sidebar so it won't affect with adding margins
+        }
+        .attendanceContainerComponents{
+          position: relative;
+          width: 85.5%;
+
+          .attendaceHolder{
+            margin-top: 50px;
+            padding: 20px;
+            
+            .attendanceHeader{
+              padding: 20px;
+              box-shadow: $shadow;
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 10px;
+              color: lightgrey;
+              font-size: 20px;
+              font-weight: 700;
+
+              .count_el{
+                color: green;
+                font-weight: 900;
+              }
+            }
+          }
+        }
+    }
+}

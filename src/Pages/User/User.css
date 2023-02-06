@@ -1,0 +1,149 @@
+.user {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+.user .userContainer {
+  width: 100%;
+  display: flex;
+}
+.user .userContainer .sidebar_imitation {
+  width: 14.5%;
+  height: 100vh;
+}
+.user .userContainer .userContainerComponents {
+  position: relative;
+  width: 85.5%;
+}
+.user .userContainer .userContainerComponents .userTitileContainer {
+  margin-top: 50px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user .userContainer .userContainerComponents .userTitileContainer .userAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: green;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+.user .userContainer .userContainerComponents .container {
+  display: flex;
+  padding: 20px;
+}
+.user .userContainer .userContainerComponents .userShow {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+.user .userContainer .userContainerComponents .userShow .userShowTop {
+  display: flex;
+  align-items: center;
+}
+.user .userContainer .userContainerComponents .userShow .userShowTop .userShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user .userContainer .userContainerComponents .userShow .userShowTop .userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.user .userContainer .userContainerComponents .userShow .userShowTop .userShowTopTitle .userShowUsername {
+  font-weight: 600;
+}
+.user .userContainer .userContainerComponents .userShow .userShowTop .userShowTopTitle .userShowUserTitle {
+  font-weight: 300;
+}
+.user .userContainer .userContainerComponents .userShow .userShowBottom {
+  margin-top: 20px;
+}
+.user .userContainer .userContainerComponents .userShow .userShowBottom .userShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(171, 170, 170);
+}
+.user .userContainer .userContainerComponents .userShow .userShowBottom .userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+.user .userContainer .userContainerComponents .userShow .userShowBottom .userShowInfo .userShowIcon {
+  font-size: 16px;
+}
+.user .userContainer .userContainerComponents .userShow .userShowBottom .userShowInfo .userShowInfoTitle {
+  margin-left: 10px;
+}
+.user .userContainer .userContainerComponents .userUpdate {
+  flex: 2;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateForm .userUpdateLeft .userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateForm .userUpdateLeft .userUpdateItem label {
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateForm .userUpdateLeft .userUpdateItem .userUpdateInput {
+  background: none;
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateForm .userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateForm .userUpdateRight .userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateForm .userUpdateRight .userUpdateUpload .userUpdateIcon {
+  cursor: pointer;
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateForm .userUpdateRight .userUpdateUpload .userUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateForm .userUpdateRight .userUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 10px 0;
+  cursor: pointer;
+  background-color: #000080;
+  color: white;
+  font-weight: bold;
+}
+.user .userContainer .userContainerComponents .userUpdate .userUpdateForm .userUpdateRight .userUpdateButton:hover {
+  opacity: 90%;
+  transition: 0.3s ease;
+}

@@ -1,0 +1,116 @@
+@import './../../SCSS/utitlities';
+@import './../../SCSS/colors';
+
+
+.single{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+
+    .singleContainer{
+      width: 100%;
+      // background-color: aquamarine;
+      display: flex;
+
+      .singleContainerComponents{
+        position: relative;
+        width: 100%;
+
+        .top{
+            margin-top: 50px;
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+
+            .left{
+                position: relative;
+                flex: 1;
+                padding: 20px;
+                box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+
+                .editButton{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    font-size: 12px;
+                    padding: 4px;
+                    // border-radius: 5px;
+                    color: $primaryColor;
+                    background-color: #0000803f;
+                    cursor: pointer;
+                }
+
+                .item{
+                    display: flex;
+                    gap: 20px;
+
+                    .itemImg{
+                        width: 100px;
+                        height: 90px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    .details{
+                        .itemTitle{
+                            margin-bottom: 10px;
+                            color: #555;
+                        }
+                        .detailItem{
+                            margin-bottom: 10px;
+                            font-size: 14px;
+
+                            .itemKey{
+                                font-weight: bold;
+                                // color: gray;
+                                color: #070796;
+                                margin-right: 5px;
+
+                            }
+
+                            .itemValue{
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right{
+                flex: 2;
+            }
+        }
+
+        .title{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: lighten($color: $primaryColor, $amount: 20);
+        }
+
+        .bottom{
+            padding: 20px;
+            box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+            margin: 10px 20px;
+            overflow-x: hidden;
+
+            .datatable{
+                margin-top: 0px;
+                padding: 0px;
+                color: white;
+            }
+            
+            .datatableTitle{
+                display: none;
+            }
+        }
+
+
+      }
+
+      .membersTitle{
+        display: none;
+      }
+    }
+}

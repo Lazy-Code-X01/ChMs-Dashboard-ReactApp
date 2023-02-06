@@ -1,0 +1,58 @@
+.styledTable {
+  margin-top: 30px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+.styledTable .styledTableHead {
+  background-color: #F9FAFB;
+  font-weight: 700;
+}
+.styledTable .cellWrapper {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+.styledTable .cellWrapper .image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.styledTable .bio-btn {
+  padding: 5px;
+  border-radius: 5px;
+  width: max-content;
+  color: white;
+  font-weight: 700;
+}
+.styledTable .bio-btn.Success {
+  color: green;
+  background-color: rgba(43, 154, 43, 0.335);
+}
+.styledTable .bio-btn.Pending {
+  color: crimson;
+  background-color: rgba(220, 20, 60, 0.315);
+}
+
+.attendanceHistory {
+  padding: 20px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  margin-top: 20px;
+}
+.attendanceHistory .attendaceHistoryHeader {
+  color: gray;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.attendanceHistory .attendaceHistoryHeader .attendaceHistoryButton {
+  outline: none;
+  border: none;
+  background: none;
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,175 @@
+.dark{
+    background-color: #111;
+    color: rgb(156, 156, 156);
+
+    //for desktop navbar
+    .navbar{
+        background-color: #111;
+        border-bottom: 3px solid #222;
+        color: gray;
+
+        input{
+            color: rgb(156, 156, 156);
+
+        }
+    }
+
+    // for mobile navbar
+    .mobNav{
+        background-color: #111;
+        border-bottom: 3px solid #222;
+        color: gray;
+        
+        input{
+            color: rgb(156, 156, 156);
+        }
+
+    }
+
+    // for desktop sidebar
+
+    .sidebar{
+        background-color: rgb(15, 15, 15);
+
+        .center{
+            .link{
+                &.active{
+                    background-color: #222;
+                    transform: scale(93%);
+                }
+                li{
+
+                    &:hover{
+                        background-color: #222;
+                        transition: .2s ease-in;
+                    }
+                }
+            }
+        }
+    }
+
+    // for mobile side bar
+    .mobsidebar{
+        background-color: rgb(15, 15, 15);
+
+        .MobCenter{
+            li{
+                &:hover{
+                    background-color: #222;
+                    transition: .2s ease-in;
+                }
+            }
+        }
+    }
+
+    .chartGrid{
+        stroke: rgba(228, 228, 228, 0.219);
+    }
+
+    .listContainer{
+
+        .listTitle{
+            color: rgb(156, 156, 156) !important;
+        }
+    }
+
+    //widget arena
+    .widgetIcon{
+        background-color: #222;
+    }
+
+    // members re-styling AREA --------------
+    .table{
+        background-color: #111;
+
+        .tableCell{
+            color: rgb(156, 156, 156);
+        }
+
+        .action{
+            span{
+                &.view{
+                    color: green;
+                    border: 1px dotted rgba(0, 128, 0, 0.187);
+                }
+            }
+        }
+    }
+
+    .tableHead{
+        background-color: #222;
+    }
+
+    form{        
+        .formInput{
+
+            input{
+                color: rgb(156, 156, 156);
+            }
+
+        }
+    
+        button{
+            background-color: #222 !important;
+        }
+    }
+
+    .userShowBottom{
+        .userShowInfo{
+            color: rgb(156, 156, 156) !important;
+        }
+    }
+
+    .userUpdateInput{
+        color: rgb(156, 156, 156) !important;
+    }
+
+    .barChartLine{
+        stroke: rgb(156, 156, 156) !important;
+    }
+
+    // data tables
+    .singleContainerComponents{
+        .bottom{
+            .datatable{
+                // background-color: aquamarine ;
+                
+                .data_grid{
+                    color: rgb(156, 156, 156) !important;
+                }
+
+                .cellAction{
+
+                    .viewButton{
+                        color: green;
+                        border: 1px dotted rgba(0, 128, 0, 0.187);
+                    }
+                }
+            }
+        }   
+    }
+
+    // ATTENDANCE && STY;ING THE <StyledTable.scss />
+    .styledTable{
+        .styledTableHead{
+            background-color: #222 !important;
+            color: rgb(156, 156, 156);
+        }
+        .styledTableRow{
+            background-color: #111;
+            color: rgb(156, 156, 156) !important;
+        }
+        .bio-btn{
+            &.Success{
+                color: green;
+                background-color: rgba(0, 128, 0, 0.187);
+            //    background-color: rgba(43, 154, 43, 0.335); 
+            }
+            &.Pending{
+                color: crimson;
+                background-color: rgba(220, 20, 60, 0.315);
+            }
+        }
+    }
+
+}

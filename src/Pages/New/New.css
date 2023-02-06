@@ -1,0 +1,83 @@
+.new {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+.new .newContainer {
+  width: 100%;
+  display: flex;
+}
+.new .newContainer .sidebar_imitation {
+  width: 14.5%;
+  height: 100vh;
+}
+.new .newContainer .newContainerComponents {
+  position: relative;
+  width: 85.5%;
+}
+.new .newContainer .newContainerComponents .top {
+  padding: 20px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  margin: 70px 20px 20px 20px;
+  display: flex;
+}
+.new .newContainer .newContainerComponents .top h1 {
+  color: lightgray;
+  font-size: 20px;
+}
+.new .newContainer .newContainerComponents .bottom {
+  padding: 20px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  margin: 20px;
+  display: flex;
+}
+.new .newContainer .newContainerComponents .bottom .left {
+  flex: 1;
+  text-align: center;
+}
+.new .newContainer .newContainerComponents .bottom .left img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.new .newContainer .newContainerComponents .bottom .right {
+  flex: 1;
+}
+.new .newContainer .newContainerComponents .bottom .right form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-around;
+}
+.new .newContainer .newContainerComponents .bottom .right form .formInput {
+  width: 40%;
+}
+.new .newContainer .newContainerComponents .bottom .right form .formInput label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.new .newContainer .newContainerComponents .bottom .right form .formInput label .icon {
+  cursor: pointer;
+}
+.new .newContainer .newContainerComponents .bottom .right form .formInput input {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid gray;
+}
+.new .newContainer .newContainerComponents .bottom .right form button {
+  background-color: #000080;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}

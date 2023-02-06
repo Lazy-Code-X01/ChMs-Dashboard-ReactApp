@@ -1,0 +1,68 @@
+.featured {
+  flex: 2;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+}
+.featured .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+}
+.featured .top .title {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.featured .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.featured .bottom .featuredChart {
+  width: 100px;
+  height: 100px;
+}
+.featured .bottom .title {
+  color: gray;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.featured .bottom .amount {
+  font-size: 30px;
+}
+.featured .bottom .desc {
+  font-size: 14px;
+  font-weight: 300;
+  color: gray;
+  text-align: center;
+  text-transform: capitalize;
+}
+.featured .bottom .summary {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featured .bottom .summary .item {
+  text-align: center;
+}
+.featured .bottom .summary .item .itemTitle {
+  font-size: 14px;
+  color: gray;
+}
+.featured .bottom .summary .item .itemPercentage {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.featured .bottom .summary .item .itemPercentage.positive {
+  color: green;
+}
+.featured .bottom .summary .item .itemPercentage.negative {
+  color: red;
+}

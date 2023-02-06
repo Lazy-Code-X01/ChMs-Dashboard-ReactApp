@@ -1,0 +1,72 @@
+.navbar {
+  position: fixed;
+  width: 85.5%;
+  height: 50px;
+  border-bottom: 3px solid #0F0844;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: unset;
+  font-size: 14px;
+  color: #555;
+  background-color: #F9FAFB;
+  z-index: 1;
+}
+.navbar .wrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.navbar .wrapper .search {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid lightgray;
+  padding: 3px;
+}
+.navbar .wrapper .search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  text-transform: capitalize;
+}
+.navbar .wrapper .search input::placeholder {
+  font-size: 12px;
+}
+.navbar .wrapper .items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: unset;
+}
+.navbar .wrapper .items .item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  position: relative;
+}
+.navbar .wrapper .items .item .icon {
+  font-size: 25px;
+}
+.navbar .wrapper .items .item .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.navbar .wrapper .items .item .counter {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
