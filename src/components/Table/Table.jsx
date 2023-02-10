@@ -22,9 +22,6 @@ import male3 from './../../images/male_3.PNG'
 
 const List = () => {
 
-  //for the edit option
-  // const [edit, setEdit] = React.useState('Edit')
-  // let edit  = 'Edit'
 
   const data = [
 
@@ -94,8 +91,7 @@ const List = () => {
       dept: 'Children',
       dob: 'Nov., 22',    
     },
-// ----------------
-
+// ---------------
   ]
 
   const [members, setMembers] = React.useState(data)
@@ -115,7 +111,6 @@ const List = () => {
 
   return (
     <>
-    
       <div className="membersTitle">
       RCCG KPM Members
       <Link to='/lists/members/new' style={{textDecoration: 'none'}} className='link'>

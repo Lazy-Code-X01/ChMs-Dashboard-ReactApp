@@ -18,11 +18,16 @@ import { DarkModeContext } from '../../context/darkModeContext';
 const Sidebar = ({children}) => {
 
     const {dispath} = useContext(DarkModeContext)
-
+    const sidebar  = document.querySelector('.sidebar')
+    // const closeSidebar =  () => {
+    //     if(sidebar.classList.contains('open')){
+    //         sidebar.classList.add('close')
+    //     }
+    // }
   return (
     <div className='container'>
         <div  className="sidebar">
-
+            
             <div className="top">
                 <span className='logo'>ProjectCaaS</span>
             </div>
@@ -94,6 +99,7 @@ const Sidebar = ({children}) => {
                 </div>
             </div>
         </div>
+        <div className="overlay"></div>
         <div className="sidebar_imitation"></div>
 
         <main>

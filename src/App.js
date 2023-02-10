@@ -15,13 +15,14 @@ import Sidebar from './components/Sidebar/Sidebar';
 
 import { DarkModeContext } from './context/darkModeContext';
 
-// importing styles
-import './scss/dark.scss'
-import './App.css'
 import Single from './Pages/Single.jsx/Single';
 import Edit from './Pages/Edit/Edit';
 import New from './Pages/New/New';
 
+// importing styles
+import './App.css'
+import './scss/global_mobile.scss'
+import './scss/dark.scss'
 
 function App() {
 

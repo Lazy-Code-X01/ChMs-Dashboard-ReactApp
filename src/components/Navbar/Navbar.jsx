@@ -5,14 +5,26 @@ import './navbar.scss'
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
 import CircleNotificationsRoundedIcon from '@mui/icons-material/CircleNotificationsRounded';
+import MenuOpenIcon from '@mui/icons-material/MenuOpen';
+
 import logo from '../../logo.jpg' 
 
 const Navbar = () => {
+  // funtion to open the menu in react
+  const openMenu = () => {
+    let sidebar = document.querySelector('.sidebar')
+    sidebar.classList.add('open')
+  }
+
+  
+
   return (
     <div className='navbar'>
 
     <div className="wrapper">
 
+      <MenuOpenIcon className='hamburger_menu' onClick={openMenu}/>
+      
       <div className="search">
         <input 
           type="text"  
